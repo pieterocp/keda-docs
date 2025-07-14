@@ -4,7 +4,7 @@ date = 2021-05-27
 author = "Troy Denorme"
 +++
 
-With the addition of Azure Piplines support in KEDA, it is now possible to autoscale your Azure Pipelines agents based on the agent pool queue length.
+With the addition of Azure Pipelines support in KEDA, it is now possible to autoscale your Azure Pipelines agents based on the agent pool queue length.
 
 Self-hosted Azure Pipelines agents are the perfect workload for this scaler. By autoscaling the agents you can create a scalable CI/CD environment.
 
