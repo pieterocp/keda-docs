@@ -36,7 +36,7 @@ triggers:
 
 **TLS:**
 
-- `tls`: Optional. To enable SSL auth for Pulsar, set this to `enable`. If not set, TLS for Pulsar is not used, Your shoule set this key to trigger metadata.
+- `tls`: Optional. To enable SSL auth for Pulsar, set this to `enable`. If not set, TLS for Pulsar is not used. You should set this key in the trigger metadata.
 - `ca`: Certificate authority file for TLS client authentication. 
 - `cert`: Certificate for client authentication.
 - `key`: Key for client authentication. 
