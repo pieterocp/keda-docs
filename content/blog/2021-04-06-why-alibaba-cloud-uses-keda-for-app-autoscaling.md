@@ -35,7 +35,7 @@ By doing this, platform providers (such as Alibaba, Azure, HashiCorp and [others
 In addition to scaling the cluster, Kubernetes allows you to easily **scale your application**:
 
 - Horizontal Pod Autoscaler ([HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)) allows you to add/remove more pods to your workloads to scale in/out (adding or removing replicas)
-- Vertical Pod Autoscaler ([VPA](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler)) allows you to add/remove resources to your pods to scale up/down (adding or removing CPU or memoru)
+- Vertical Pod Autoscaler ([VPA](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler)) allows you to add/remove resources to your pods to scale up/down (adding or removing CPU or memory)
 All of this combined gives you a very good starting point to scale your application.
 
 ## The limitations of Horizontal Pod Autoscaler (HPA)
