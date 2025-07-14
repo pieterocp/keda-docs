@@ -93,7 +93,7 @@ spec:
 
 #### Amazon Elastic Kubernetes Service (EKS)
 
-E.g. Make sure the Cluster Security group can reach the Nodegroups on TCP 6443. For example, using the [terraform eks module](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest), this is achievable through the addtional nodegroup rules
+E.g. Make sure the Cluster Security group can reach the Nodegroups on TCP 6443. For example, using the [terraform eks module](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest), this is achievable through the additional nodegroup rules
 
 ```terraform
 module "eks" {
@@ -113,4 +113,4 @@ module "eks" {
   }
 ```
 
-As of version `19.6.0` of the `terraform-aws-modules/eks/aws` module it is enough to have `node_security_group_enable_recommended_rules` option enabled(default) to get neccessary security group ingress rule.
+As of version `19.6.0` of the `terraform-aws-modules/eks/aws` module it is enough to have `node_security_group_enable_recommended_rules` option enabled(default) to get necessary security group ingress rule.
